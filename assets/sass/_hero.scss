@@ -1,0 +1,178 @@
+.hero {
+    margin-top: 127px;
+    &-left {
+        height: 436px;
+        width: 436px;
+        border-radius: 50%;
+        background-color: rgba(46, 187, 245, 1) ;
+        box-shadow: 0px 4px 50px #2EBBF5;
+        position: relative;
+    }
+    &-img {
+        position: absolute;
+        top: -69px;
+    }
+    &-line {
+        position: absolute;
+        right: -87px;
+    }
+    .plus {
+        &-item{
+            position: absolute;
+            cursor: pointer;
+            border-radius: 100%;
+            z-index: 1;
+            &:nth-child(1){
+                right: -55px;
+                top: 2%;
+            }
+            &:nth-child(2){
+                right: -102px;
+                top: 32%;
+            }
+            &:nth-child(3){
+                right: -102px;
+                top: 62%;
+            }
+            &:nth-child(4){
+                right: -55px;
+                top: 90%;
+            }
+        }
+        &-cir {
+            position: absolute;
+            width: 4.8vw;
+            height: 4.8vw;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            background-color: rgba(64, 188, 238, 0.1);
+            border-radius: 100%;
+            z-index: -1;
+            -webkit-animation:beat 1s infinite ;
+            animation:beat 1s infinite ;
+        }
+        &-img {
+            height: 52px;
+            width: 52px;
+            flex-shrink: 0;
+            border-radius: 100%;
+            -webkit-box-shadow: 0 0 106px rgb(44 186 243 / 15%);
+            box-shadow: 0 0 106px rgb(44 186 243 / 15%);
+            background-color: #212747;
+            z-index: 20;
+            position: relative;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+            padding: 12px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &-line-blue {
+        background-color: $primary-color;
+        width: 325px;
+        height: 2px;
+        margin-top: 11px;
+        margin-bottom: 23px;
+    }
+    &-title {
+        font-size: 24px;
+        font-weight: 500px;
+        line-height: 28px;
+        color: #fff;
+        margin-bottom: 37px;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    &-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        gap: 0 11px;
+        padding: 12px 0;
+        padding-left: 58px;
+        padding-right: 14px;
+        height: 66px;
+        width: 299px;
+        color: #fff;
+        span {
+            display: block;
+            font-weight: 300;
+        }
+        .btn-icon{
+            font-size: 25px;
+            background-color: #fff;
+            height: 49px;
+            width: 48px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $green-color;
+        }
+    }
+
+    &-form {
+        margin-top: 25px;
+        height: 342px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 20px;
+        padding: 54px 64px 59px 66px;
+        background: url('../img/bg\ 2-form.jpg') no-repeat top/100%;
+        border-radius: 40px;
+        position: relative;
+        z-index: 2;
+        .form-caption {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            color: #fff;
+        }
+        .text-weight {
+            font-weight: 300;
+        }
+        .input-group-prepend{
+            margin-top: 30px;
+            margin-bottom: 16px;
+        }
+        input{
+            width: 291px;
+            height: 62px;
+            padding-left: 20px;
+            border-radius: 90px;
+            outline: 1;
+            color: rgb(226, 215, 215);
+            font-size: 14px;
+            margin-right: 12px;
+            &::placeholder{
+                color: rgb(228, 215, 215);
+            }
+        }
+        .btn-center {
+            padding: 0;
+        }
+        .hero-form-img{
+            width: 356px;
+            margin-top: -60px;
+        }
+    }
+
+}

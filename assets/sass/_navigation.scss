@@ -1,0 +1,27 @@
+.navigation {
+    margin: 0 auto;
+    max-width: 955px;
+    border-radius: 16px;
+    background-color: rgba(223, 205, 205, 0.15);
+    .menu-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        gap: 0 53px;
+        padding: 22px 0;
+        
+        a{
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            color: #fff;
+        }
+    }
+    .item-flag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 5px;
+    }
+}

@@ -1,0 +1,18 @@
+.certification {
+    margin-bottom: 69px;
+    &-title {
+        color: #000;
+        align-items: flex-start;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    b {
+        font-weight: bold;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom: 40px;
+        
+    }
+}

@@ -1,0 +1,71 @@
+.header {
+  padding-top: 27px;
+  margin-bottom: 32px;
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .insurance {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0 20px;
+      &-content {
+        width: 141px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .work {
+      position: relative;
+      height: 46px;
+      width: 168px;
+      background: 
+      linear-gradient(rgba(117, 210, 248, 1),
+      rgba(46, 187, 245, 1),
+      rgba(20, 161, 219, 1));
+      border-radius: 58px;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      padding-right: 10px;
+    
+      img {
+        position: absolute;
+        left: 5px;
+        top: -10px;
+        overflow: unset;
+
+      }
+    }
+    .phone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-bg-white {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        height: 46px;
+        width: 115px;
+        border-radius: 58px;
+      }
+    }
+    .user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-info {
+        margin-left: 10px;
+      }
+      &-phone-number {
+        color: #fff;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+      }
+    }
+}

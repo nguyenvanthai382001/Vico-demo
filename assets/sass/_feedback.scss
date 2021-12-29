@@ -1,0 +1,33 @@
+.feedback {
+    background: url(../img/bg-about.jpg) no-repeat top center/cover;
+    background: $blue-dark;
+    height: 100vh;
+    padding: 45px 0;
+    .container {
+        padding: 0;
+    }
+    &-list {
+        margin-top: 50px;
+    }
+    .slick-center {
+        // background-image: url(../img/phone-about.png);
+        z-index: 10;
+    }
+    .title-primary {
+        span {
+            display: block;
+            font-weight: 400;
+            font-size: 24px;
+        }
+    }
+    &-item {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .slick-prev {
+        display: none !important;
+    }
+    .slick-next {
+        display: none !important;
+    }
+}

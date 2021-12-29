@@ -1,0 +1,27 @@
+.company {
+    margin-top: 43px;
+    margin-bottom: 100px;
+    .title-primary {
+        color: #000;
+        margin-bottom: 57px;
+    }
+    &-inner {
+        padding-top: 57px;
+        background: url('../img/bg-company.jpg') no-repeat top  center/cover;
+    }
+    &-slogan {
+        font-size: 18px;
+        line-height: 26px;
+        color: #222647;
+        font-weight: 700;
+        font-style: italic;
+        margin-top: 35px;
+        padding-bottom: 22px;
+    }
+    &-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 23px;
+    }
+}
